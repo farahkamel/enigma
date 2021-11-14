@@ -15,6 +15,8 @@ The program consists of 3 classes: Rotors, Reflectors and EnigmaMachine.
 
 
 •	The “Rotors” class is the main class that is built to deal with the 3 rotors from which the rotors are set to scrambled 26 positions that corresponds to the English alphabets.
+
+
 •	The “Reflectors” class handles the reflector setup for the two-way mapping (forward and backward)
 
 
