@@ -1,5 +1,7 @@
 #  Enigma Machine Stimulator
 Abstract
+
+
 Enigma machine is a cipher device that was used during World war 2 (WWII). t was made to cipher (encode) messages and to protect communications between the Nazis at that time. The enigma machine works by scrambling the 26 alphabets using the rotor mechanism to do so. When a text is being entered, 26 lights light at each key press. Any plain text entered in the enigma machine it gets encoded into a cipher text. On the other hand, entering a cipher text gets transferred to a readable plain text. The design of the enigma machine consists of keyboard, 3 rotors connected together along the spindle, stepping components and a lamp for each alphabet.  
 During the WWII, the enigma machine was so hard to break as it had number of combinations of settings available that made it hard to break to the encoders. The operator used to regularly change changing cipher by changing the positions of the rotating wheels and plug board. In 1932 the enigma machine was cracked by a mathematician who understood the wiring pattern inside the enigma.
 
