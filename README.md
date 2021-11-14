@@ -12,9 +12,14 @@ Introduction
 
 The Enigma machine simulator python code that I have designed models the recreation of the popular enigma machine that was built during WWII by the Germans in order to cipher their communications. The enigma machine that I have designed consists of 3 rotors & their turnover notches, reflector setup (movement from the rotor on the right to the rotor on the left, then to the reflector then one time left to right), rotating wheels and ring offset for the double stepping that has been implemented in the machine. 
 The program consists of 3 classes: Rotors, Reflectors and EnigmaMachine. 
+
+
 •	The “Rotors” class is the main class that is built to deal with the 3 rotors from which the rotors are set to scrambled 26 positions that corresponds to the English alphabets.
 •	The “Reflectors” class handles the reflector setup for the two-way mapping (forward and backward)
+
+
 •	The “EnigmaMachine” class is the main enigma class that connects all the python code together in order to create the enigma machine as a whole. The EnigmaMachine class contains the function used for the rotation mechanism of the rotors.
+
 
 The enigma stepping used in this Enigma machine is double stepping (called in the code: ‘two_step’) in which the middle rotor (second rotor) steps two times (on 2 successive keyboard presses) if the left rotor makes a step. Double stepping simply works when the first rotor rotates on every keypress one step as there’s no other rotor before it. Then the second rotor rotates on every last keypress (26th) whenever the first rotor is in its turnover notched position (“t”) and lastly the third rotor only rotates when the second rotor is in the turnover notched place when this happens it would keep on rotating twenty six times in a row until the middle rotor would move from the turnover notched place again.
 
